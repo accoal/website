@@ -404,8 +404,8 @@ button:focus {
    3. Hero Area
    ========================================================================== */
 #hero-area {
-  background: url(../img/hero-area.jpg) fixed no-repeat;
-  background-size: contain;
+  background: url(../img/hero-mobile.jpg) fixed no-repeat;
+  background-size: cover;
   color: #fff;
   overflow: hidden;
   position: relative;
@@ -562,6 +562,10 @@ button:focus {
 }
 
 @media screen and (max-width: 768px) {
+  #hero-area {
+    background: url(../img/hero-mobile.jpg) fixed no-repeat;
+    background-size: cover;
+  }
   .navbar-header {
     width: 100%;
   }
