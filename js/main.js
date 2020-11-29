@@ -84,7 +84,11 @@
             $('.header-top-area').removeClass('menu-bg');
         }
     });
-
+    
+   $('.lightbox').nivoLightbox({
+    effect: 'fadeScale',
+    keyboardNav: true,
+  });
 
 /* 
    Back Top Link
